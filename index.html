@@ -1,1 +1,137 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Wealth Café | Finance Research & Visual Insights</title><meta name="description" content="Wealth Café publishes finance research, market notes, valuation studies and investing visuals."><link rel="stylesheet" href="assets/css/style.css"></head><body><div class="progress"></div><nav><a class="logo" href="index.html">Wealth<span>Café</span></a><div class="navlinks"><a href="#articles">Articles</a><a href="#about">About</a><a href="#contact">Contact</a></div></nav><header><div><h1 class="brand">Wealth<span>Café</span></h1><p class="tagline">Data-driven finance insights, market notes and visual research for long-term investors.</p><a class="btn" href="#articles">Browse Articles</a></div></header><main class="wrap"><section class="feature"><div><div class="kicker">Featured Insight</div><h2>Valuation Influences the Journey. Time Determines the Destination.</h2><p class="meta">Mutual Funds · Behavioural Finance · 2026</p><p>Starting valuations affect short-term SIP experience, but long-term outcomes are shaped more by discipline, compounding and time in the market.</p><br><a class="btn" href="articles/sip-success.html">Read Featured Article</a></div><a href="articles/sip-success.html"><img src="images/sip-success.png" alt="SIP valuation analysis"></a></section><section id="articles"><div class="section-head"><h2>Latest Research</h2><p>Visual articles on markets, mutual funds, portfolio construction, valuation and long-term wealth creation.</p></div><div class="tools"><input id="search" class="search" placeholder="Search articles by topic..."><button class="chip active" data-filter="All">All</button><button class="chip" data-filter="Mutual Funds">Mutual Funds</button><button class="chip" data-filter="Portfolio Construction">Portfolio</button><button class="chip" data-filter="Valuation">Valuation</button><button class="chip" data-filter="Diversification">Diversification</button></div><div class="grid" id="articleGrid"></div></section><section id="about" class="about"><h2>About Wealth Café</h2><p>Wealth Café is a finance-focused knowledge page featuring visual articles on investing, mutual funds, valuation, taxation, personal finance and market behaviour. The aim is to simplify finance without diluting depth.</p></section></main><footer id="contact">© 2026 Wealth Café · Finance insights for long-term investors<br>Disclaimer: Educational content only. Not investment advice.</footer><script src="assets/js/app.js"></script></body></html>
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wealth Café | Finance, Markets & Investing Research</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="topbar">
+  <strong>Wealth Café Research</strong>
+  <span>Visual Finance Notes</span>
+  <strong>Long-Term Investing</strong>
+  <strong>Portfolio Construction</strong>
+</div>
+
+<nav class="mainnav">
+  <a class="brand" href="index.html">Wealth<span class="cafe">Café</span></a>
+  <div class="actions">
+    <span>Sign In</span>
+    <a class="subscribe" href="#articles">Subscribe</a>
+    <span>⌕</span>
+  </div>
+</nav>
+
+<div class="menubar">
+  <a class="live" href="#">● Live Markets</a>
+  <a href="#articles">Markets</a>
+  <a href="#articles">Mutual Funds</a>
+  <a href="#articles">Portfolio</a>
+  <a href="#articles">Valuation</a>
+  <a href="#about">Our Thinking</a>
+  <a href="#articles">Research</a>
+  <a href="#articles">More ▾</a>
+</div>
+
+<div class="ticker">
+  <span class="pill">Sensex <span class="up">▲ Long term</span></span>
+  <span class="pill">SIP Research <span class="up">▲ Compounding</span></span>
+  <span class="pill">Index Funds <span class="down">▼ Overlap risk</span></span>
+  <span class="pill">Valuation <span>PE-based</span></span>
+  <span class="pill">Diversification <span class="up">▲ Quality exposure</span></span>
+</div>
+
+<main class="wrap">
+  <section class="hero">
+    <div class="hero-col">
+      <div class="section-label">Featured Research</div>
+      <img class="hero-img" src="images/index-fund-illusion.png" alt="The Index Fund Illusion">
+      <h1 class="main-title">The Index Fund Illusion</h1>
+      <p class="deck">More funds do not always mean more diversification. Broad indices may overlap far more than investors think.</p>
+      <div class="story-list">
+        <div>Related</div>
+        <div>Portfolio overlap can hide concentration risk</div>
+        <div>Index count is not the same as exposure quality</div>
+      </div>
+    </div>
+
+    <div class="hero-col">
+      <div class="section-label">Latest Visual Essay</div>
+      <img class="hero-img" src="images/sip-success.png" alt="SIP valuation research">
+      <h1 class="main-title">Why Long-Term SIP Success Depends More on Time Than Timing</h1>
+      <p class="deck">Sensex P/E levels shape short-term expectations, but over long horizons consistency and compounding dominate the outcome.</p>
+      <div class="story-list">
+        <div>Analysis: 277 months from April 2003 to April 2026</div>
+        <div>Cheaper starts helped early returns, but the gap faded</div>
+      </div>
+    </div>
+
+    <aside class="hero-col">
+      <div class="section-label">Today’s Notes</div>
+      <div class="video-card">
+        <img src="images/sip-success.png" alt="Research preview">
+        <h3>Valuation influences the journey. Time determines the destination.</h3>
+        <p class="deck" style="font-size:16px;margin-top:10px">A high market P/E is useful for expectation-setting—not necessarily for delaying a long-term SIP.</p>
+      </div>
+    </aside>
+  </section>
+
+  <section class="section" id="articles">
+    <h2>Business & Investing Research</h2>
+    <div class="article-grid">
+      <article class="card">
+        <a href="articles/index-fund-illusion.html"><img src="images/index-fund-illusion.png" alt="The Index Fund Illusion"></a>
+        <div class="card-body">
+          <p class="meta">Portfolio Construction · Index Investing</p>
+          <h3>The Index Fund Illusion</h3>
+          <p>Owning more broad-market funds may duplicate exposure rather than improve diversification.</p>
+          <a class="read" href="articles/index-fund-illusion.html">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <a href="articles/sip-success.html"><img src="images/sip-success.png" alt="Long-Term SIP Success"></a>
+        <div class="card-body">
+          <p class="meta">Mutual Funds · Behavioural Finance</p>
+          <h3>Why Long-Term SIP Success Depends More on Time Than Timing</h3>
+          <p>Starting valuations matter in the short run; discipline and compounding matter more over 10–15 years.</p>
+          <a class="read" href="articles/sip-success.html">Read Article →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="ft-section">
+    <div class="ft-head">Companies • Markets • Portfolio Thinking</div>
+    <div class="ft-layout">
+      <div>
+        <h2 class="ft-title">Research for investors who prefer evidence over noise.</h2>
+        <p class="deck" style="margin-top:18px">Wealth Café publishes visual notes on investing behaviour, market valuation, fund selection and portfolio construction.</p>
+      </div>
+      <img class="hero-img" src="images/index-fund-illusion.png" alt="Index fund research">
+      <div class="side-list">
+        <h3>More topics</h3>
+        <p>Mutual Funds</p>
+        <p>Index Funds</p>
+        <p>Valuation</p>
+        <p>Asset Allocation</p>
+        <p>Taxation</p>
+        <p>Long-Term Investing</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>Our Thinking</h2>
+    <p>Wealth Café is a finance research page for visual articles, investing explainers and market notes. The objective is to make finance sharper, cleaner and easier to understand—without losing analytical depth.</p>
+  </section>
+</main>
+
+<footer>
+  <strong>© 2026 Wealth Café</strong>
+  <span>Educational content only. Not investment advice.</span>
+</footer>
+</body>
+</html>
